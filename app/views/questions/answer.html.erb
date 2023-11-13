@@ -1,0 +1,19 @@
+
+
+
+<div class="container d-flex justify-content-center align-items-center">
+  <div>
+   <h1>Stupid Coaching</h1>
+    <div class="border-left padding">
+      <p class="margin-bottom"><%= @question %></p>
+      <p><em>- You</em></p>
+    </div>
+
+    <div class="border-left padding coach-answer-yellow">
+      <p class="margin-bottom"><%= @answer %></p>
+      <p><em>- Your Coach</em></p>
+    </div>
+
+    <%= link_to "Ask a new question!", "/ask" %>
+  </div>
+</div>

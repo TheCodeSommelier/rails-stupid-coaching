@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+ .form-container {
+  height: 100vh;
+ }
+
+ .form-br-right {
+  border-radius: 3px 0 0 3px;
+ }
+
+ .form-br-left {
+  border-radius: 0 3px 3px 0;
+ }
+
+ .label-size {
+  font-size: 20px;
+ }
+
+ .input-width {
+  width: 1000px;
+ }
+
+ .border-left {
+  border-left: 3px solid grey;
+ }
+
+ .padding {
+  padding: 5px 10px;
+ }
+
+ .margin-bottom {
+  margin-bottom: 5px;
+ }
+
+ .coach-answer-yellow {
+  background-color: rgba(255, 255, 0, 0.3);
+ }
